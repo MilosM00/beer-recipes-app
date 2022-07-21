@@ -1,0 +1,34 @@
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255,255,255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.navbar p{
+    font-style: italic;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li p{
+    font-style: normal;
+}
+
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
