@@ -8,6 +8,7 @@
     background-color: rgb(255,255,255);
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
     font-size: 20px;
+    z-index: 10;
 }
 
 .navbar p{
@@ -31,4 +32,65 @@
 .navbar ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+.hamburger-list{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255,255,255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    display: none;
+    place-items: center;
+    font-size: 18px;
+}
+
+.hamburger-list ul{
+    display: grid;
+    gap: 15px;
+}
+
+.hamburger-list ul li{
+    list-style: none;
+}
+
+.hamburger-list ul li p{
+    cursor: pointer;
+}
+
+.hamburger-list ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 599px) {
+    .hamburger-list{
+        display: grid;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .navbar p{
+        padding-left: 10px;
+    }
 }
