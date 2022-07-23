@@ -1,6 +1,7 @@
 .navbar{
     font-family: 'Raleway', sans-serif;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     padding: 10px 0;
     display: flex;
@@ -45,7 +46,7 @@
     background-color: rgb(255,255,255);
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 50px;
+    top: 46px;
     right: 0;
     width: 200px;
     height: 200px;
