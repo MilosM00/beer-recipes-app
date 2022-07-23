@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 const App = () =>{
 
@@ -27,6 +28,8 @@ const App = () =>{
                 scrollUp={scrollUp}
                 scrollUpHamburger={scrollUpHamburger}
             />
+
+            <Home />
 
         </div>
 
