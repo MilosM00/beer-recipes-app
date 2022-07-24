@@ -73,6 +73,10 @@
     color: rgb(0, 0, 0);
 }
 
+.hamburger-list ul li i{
+    color: rgb(75, 75, 75);
+}
+
 
 @media (max-width: 599px) {
     .hamburger-list{
