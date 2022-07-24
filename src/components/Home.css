@@ -15,10 +15,12 @@
 }
 
 .title-home{
+    text-align: center;
     font-size: 40px;
 }
 
 .info-home{
+    text-align: center;
     padding-top: 30px;
     font-size: 30px;
 }
@@ -43,4 +45,19 @@
 .inline-home a:hover{
     background-color: transparent;
     color: rgb(255,255,255);
+}
+
+
+@media (max-width: 578px) {
+    .title-home{
+        font-size: 30px;
+    }
+
+    .info-home{
+        font-size: 20px;
+    }
+
+    .inline-home a{
+        font-size: 18px;
+    }
 }
