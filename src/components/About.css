@@ -1,0 +1,76 @@
+.about{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+}
+
+.title-about{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.inline-one-about{
+    display: flex;
+    gap: 20px;
+}
+
+.info-about{
+    padding-top: 30px;
+    font-size: 18px;
+    max-width: 800px;
+    line-height: 30px;
+}
+
+.image-beer-bottle{
+    width: 200px;
+    height: 200px;
+}
+
+.inline-two-about{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.info-about-two{
+    padding-top: 30px;
+    font-size: 17px;
+    max-width: 700px;
+    line-height: 30px;
+}
+
+.image-beer-barrel{
+    width: 300px;
+    height: 300px;
+}
+
+.fun-fact{
+    width: 1020px;
+    padding: 20px 0;
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    place-items: center;
+}
+
+.fun-fact-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.fun-fact-title span{
+    font-style: italic;
+}
+
+.fun-fact-title i{
+    color: rgb(255, 169, 57);
+    font-size: 25px;
+}
+
+.fun-fact-info{
+    font-size: 17px;
+}
