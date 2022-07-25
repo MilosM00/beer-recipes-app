@@ -27,12 +27,19 @@
 }
 
 .navbar ul li p{
+    transition: 0.3s;
     font-style: normal;
 }
 
 .navbar ul li a{
+    transition: 0.3s;
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.navbar ul li p:hover,
+.navbar ul li a:hover{
+    color: rgb(255, 169, 57);
 }
 
 .hamburger{
@@ -74,7 +81,7 @@
 }
 
 .hamburger-list ul li i{
-    color: rgb(75, 75, 75);
+    color: rgb(255, 169, 57);
 }
 
 
