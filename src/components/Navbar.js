@@ -28,7 +28,7 @@ const Navbar = ({hamburger, hamburgerEvent, scrollUp, scrollUpHamburger}) =>{
                 <div className="hamburger-list">
                     <ul>
                         <li onClick={scrollUpHamburger}><p><i className="fa fa-home"></i> Home</p></li>
-                        <li onClick={hamburgerEvent}><a href="https:/github.com"><i className="fa fa-question"></i> About</a></li>
+                        <li onClick={hamburgerEvent}><a href="https:/github.com"><i className="fa fa-question-circle"></i> About</a></li>
                         <li onClick={hamburgerEvent}><a href="https:/github.com"><i className="fa fa-shield"></i> History</a></li>
                         <li onClick={hamburgerEvent}><a href="https:/github.com"><i className="fa fa-book"></i> Recipes</a></li>
                     </ul>
