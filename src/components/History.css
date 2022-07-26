@@ -1,0 +1,100 @@
+.history{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+}
+
+.title-history{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.inline-history-one{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.inline-history-two{
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.inline-history-three{
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.info-history-one{
+    padding-top: 30px;
+    max-width: 800px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.info-history-two{
+    padding-top: 50px;
+    max-width: 700px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.info-history-three{
+    max-width: 700px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.image-beer-cheers{
+    width: 200px;
+    height: 200px;
+}
+
+.image-beer-drinker{
+    width: 300px;
+    height: 300px;
+}
+
+.image-beer-tap{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 1019px) {
+    .inline-history-one,
+    .inline-history-two,
+    .inline-history-three{
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (max-width: 699px) {
+    .info-history-one,
+    .info-history-two,
+    .info-history-three{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .image-beer-drinker,
+    .image-beer-tap{
+        width: 200px;
+        height: 200px;
+    }
+
+    .inline-history-two{
+        padding-top: 0;
+    }
+
+    .inline-history-three{
+        padding-top: 50px;
+    }
+}
