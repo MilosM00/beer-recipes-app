@@ -74,3 +74,40 @@
 .fun-fact-info{
     font-size: 17px;
 }
+
+
+@media (max-width: 1019px) {
+    .inline-one-about,
+    .inline-two-about{
+        display: grid;
+        place-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info-about,
+    .info-about-two{
+        padding-top: 0;
+    }
+
+    .fun-fact{
+        width: 100%;
+    }
+
+    .fun-fact-info{
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .info-about,
+    .info-about-two{
+        font-size: 15px;
+    }
+
+    .image-beer-barrel{
+        width: 200px;
+        height: 200px;
+    }
+}
