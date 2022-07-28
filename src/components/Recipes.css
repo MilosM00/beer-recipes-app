@@ -1,6 +1,6 @@
 .recipes{
     font-family: 'Raleway', sans-serif;
-    padding: 100px 0;
+    padding: 50px 0;
     display: grid;
     place-items: center;
     font-size: 18px;
@@ -8,45 +8,49 @@
 }
 
 .title-recipes{
-    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
     font-size: 25px;
     font-style: italic;
 }
 
 .image-recipes{
-    width: 200px;
+    width: 150px;
     height: 500px;
 }
 
 .inline-recipes{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
     display: flex;
     gap: 50px;
 }
 
 .inline-recipes-two{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     display: flex;
     gap: 40px;
     align-items: center;
 }
 
 .description-recipes{
-    max-width: 500px;
+    line-height: 30px;
+    max-width: 600px;
 }
 
 .tagline-recipes{
+    max-width: 600px;
     font-size: 20px;
     padding-bottom: 10px;
 }
 
 .name-recipes{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .display-number{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: 30px;
-    font-weight: 600;
 }
 
 .button-arrow{
@@ -60,4 +64,39 @@
     padding: 10px;
     background-color: transparent;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-arrow:hover{
+    border: 1px solid rgb(255, 169, 57);
+    color: rgb(255, 169, 57);
+}
+
+.food-pairing-recipes{
+    padding-top: 10px;
+}
+
+.preparation-recipes{
+    font-size: 20px;
+}
+
+.tape-recipes{
+    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+    display: grid;
+    place-items: center;
+    width: 600px;
+}
+
+.tape-recipes div{
+    line-height: 35px;
+    display:flex;
+    gap: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tape-recipes div p span{
+    font-size: 30px;
 }
