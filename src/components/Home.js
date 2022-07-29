@@ -18,8 +18,8 @@ const Home = () =>{
                 </p>
 
                 <div className="inline-home">
-                    <a href="https://github.com">Learn More</a>
-                    <a href="https://github.com">Beer Recipes</a>
+                    <a href="#about">Learn More</a>
+                    <a href="#recipes">Beer Recipes</a>
                 </div>
 
             </div>
