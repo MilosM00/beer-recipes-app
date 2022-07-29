@@ -1,6 +1,6 @@
 .recipes{
     font-family: 'Raleway', sans-serif;
-    padding: 50px 0;
+    padding: 60px 0;
     display: grid;
     place-items: center;
     font-size: 18px;
@@ -99,4 +99,59 @@
 
 .tape-recipes div p span{
     font-size: 30px;
+}
+
+
+@media (max-width: 699px) {
+    .inline-recipes{
+        display: grid;
+        place-items: center;
+    }
+
+    .image-recipes{
+        width: 100px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 599px) {
+    .tape-recipes{
+        width: 100%;
+    }
+
+    .tape-recipes div{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .food-pairing-recipes{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .description-recipes{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .tagline-recipes{
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .name-recipes{
+        font-size: 19px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inline-recipes{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
