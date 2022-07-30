@@ -3,12 +3,10 @@ import "./Recipes.css";
 
 const Recipes = ({recipes}) =>{
 
-    console.log(recipes[2]);
-
     const [number, setNumber] = React.useState(0);
 
     const next = () =>{
-        if(number < 24)
+        if(number < recipes.length - 1)
         {
             setNumber(number + 1);
         }
@@ -24,7 +22,7 @@ const Recipes = ({recipes}) =>{
 
         if(number === 0)
         {
-            setNumber(24);
+            setNumber(recipes.length - 1);
         }
         
         else
@@ -43,15 +41,18 @@ const Recipes = ({recipes}) =>{
                     <p className="title-recipes">The Beer Recipes</p>
 
                     <div className="inline-recipes-two">
+
                         <button className="button-arrow" onClick={previous}><i className="fa fa-arrow-left"></i></button>
-                        <p className="display-number">{number + 1}/25</p>
+                        <p className="display-number">{number + 1}/{recipes.length}</p>
                         <button className="button-arrow" onClick={next}><i className="fa fa-arrow-right"></i></button>
+
                     </div>  
 
                     <div>
                         <p className="name-recipes">Name: {recipes[number]?.name}</p>
                         <p className="tagline-recipes">Tagline: {recipes[number]?.tagline}</p>
                         <p className="description-recipes">Description: <br />{recipes[number]?.description}</p>
+
                         <div className="food-pairing-recipes">
                             It goes great with:
                             {
@@ -136,7 +137,8 @@ const Recipes = ({recipes}) =>{
 
                             {
                                 <div>
-                                    <div> {recipes[number]?.method?.mash_temp.map((mash, id) =>{
+                                    <div> 
+                                        {recipes[number]?.method?.mash_temp.map((mash, id) =>{
                                             return(
                                                 
                                                 <p key={id}>
@@ -161,15 +163,10 @@ const Recipes = ({recipes}) =>{
                         <img src={recipes[number]?.image_url} alt="" className="image-recipes" />
 
                     </div>
-
-
-
                 </div>
-                
+
             </section>
         </>
-
-
     );
 };
 
