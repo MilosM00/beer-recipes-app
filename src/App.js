@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import History from "./components/History";
 import Recipes from "./components/Recipes";
+import Footer from "./components/Footer";
 
 const App = () =>{
 
@@ -58,6 +59,8 @@ const App = () =>{
             <Recipes 
                 recipes={recipes}
             />
+
+            <Footer />
 
         </div>
 
