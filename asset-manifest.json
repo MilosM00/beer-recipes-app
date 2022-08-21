@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/beer-recipes-app/static/css/main.5a01af71.css",
+    "main.js": "/beer-recipes-app/static/js/main.ba4ca6b9.js",
+    "static/media/beer-background.jpg": "/beer-recipes-app/static/media/beer-background.fbd4d38aa9ab61c031a3.jpg",
+    "static/media/beer-drinker.jpg": "/beer-recipes-app/static/media/beer-drinker.6e522adb5aab84f9bb2c.jpg",
+    "static/media/beer-cheers.jpg": "/beer-recipes-app/static/media/beer-cheers.dd5e68369bdb0525dc4a.jpg",
+    "static/media/beer-tap.jpg": "/beer-recipes-app/static/media/beer-tap.a4ac4695af2c600e487d.jpg",
+    "static/media/beer-barrel.jpg": "/beer-recipes-app/static/media/beer-barrel.84aebe1d45a9d7c8d6ee.jpg",
+    "static/media/beer-bottle.jpg": "/beer-recipes-app/static/media/beer-bottle.8285178228b34143ff0c.jpg",
+    "index.html": "/beer-recipes-app/index.html",
+    "main.5a01af71.css.map": "/beer-recipes-app/static/css/main.5a01af71.css.map",
+    "main.ba4ca6b9.js.map": "/beer-recipes-app/static/js/main.ba4ca6b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a01af71.css",
+    "static/js/main.ba4ca6b9.js"
+  ]
+}
